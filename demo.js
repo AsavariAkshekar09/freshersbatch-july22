@@ -1,1 +1,1 @@
-alert('A Javascript Trial');
+alert('Hello World');
