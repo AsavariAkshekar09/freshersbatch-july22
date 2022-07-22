@@ -81,7 +81,8 @@ select * from Customer
 where SUBSTRING(FirstName,1,2) = 'AS'
 
 
-
+select * from Customer
+where FirstName LIKE '%AS%'
 
 
 
