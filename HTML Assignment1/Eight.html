@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Eight Html Page</title></head>
+    <style>
+        table,td{
+            border : 2px solid black;
+            border-spacing: 0px;
+            width:8%;
+        }
+        .top{
+            padding-top:25px;
+        }
+        #left{
+            background-color: dimgray;
+        }
+        #right{
+            background-color: lightgrey;
+        }
+        #row1{
+            background-color: lightslategrey;
+        }
+    </style>
+    <body>
+        <table>
+            <tr>
+                <td colspan="2" id="row1">top</td>
+            </tr>
+
+            <tr>
+                <td class="top" id="left">left</td>
+                <td class="top" id="right">right</td>
+            </tr>
+        </table>
+    </body>
+</html>
